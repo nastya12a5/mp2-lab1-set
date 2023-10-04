@@ -16,7 +16,7 @@
 
 int main()
 {
-    /* int n, m, k, count;
+    int n, m, k, count;
 
      setlocale(LC_ALL, "Russian");
      cout << "Тестирование программ поддержки битового поля" << endl;
@@ -52,7 +52,7 @@ int main()
    }
    #else
 
-   #include "tset.h"
+  /* #include "tset.h"
 
    int main()
    {
@@ -89,7 +89,6 @@ int main()
        }
      cout << endl;
      cout << "В первых " << n << " числах " << count << " простых" << endl;
-   }
-   */
+   }*/
+   
    #endif
-}
