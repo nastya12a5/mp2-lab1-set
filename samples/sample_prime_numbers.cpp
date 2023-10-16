@@ -7,7 +7,7 @@
 
 #include <iomanip>
 
-// #define USE_SET // Использовать класс TSet,
+ #define USE_SET // Использовать класс TSet,
                 // закоментировать, чтобы использовать битовое поле
 
 #ifndef USE_SET // Использовать класс TBitField
@@ -52,8 +52,8 @@ int main()
    }
 
    #else 
-}
-  /* #include "tset.h"
+
+   #include "tset.h"
 
    int main()
    {
@@ -90,6 +90,6 @@ int main()
        }
      cout << endl;
      cout << "В первых " << n << " числах " << count << " простых" << endl;
-   }*/
+   }
    
-   #endif
+  #endif
